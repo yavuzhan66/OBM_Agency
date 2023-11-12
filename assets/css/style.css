@@ -490,6 +490,7 @@ body.nav-active { overflow: hidden; }
   padding: 40px;
   box-shadow: var(--shadow-2);
   border-radius: var(--radius-6);
+  
 }
 
 .service-card .card-icon {

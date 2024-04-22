@@ -4,6 +4,7 @@ const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const RouteProducts = require('./router/product');
+const ejs = require('ejs');
 
 
 mongoose.connect('mongodb+srv://obmagency:thewarriors@cluster0.3apnmqj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
